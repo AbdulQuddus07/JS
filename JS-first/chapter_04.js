@@ -1,5 +1,4 @@
-// Question No :04
-
+// Chapter No :04
 var age = 22;
 alert("I am "+ age +" years old");
 var times = 14;
