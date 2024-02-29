@@ -9,6 +9,10 @@ alert("Error! Please enter a valid password");
 alert("Wellcome to JS Land... \nHappy Coding!");
 
 
-// Generate the following message through browser’s 
+// 4. Write a script to display following messages in sequence
+alert("Wellcome to JS Land");
+alert("Happy Coding!") ;
+
+// 5 Generate the following message through browser’s 
 // developer console
 console.log("Hi I can run Java Script through my web browser console");
