@@ -47,7 +47,7 @@ var book = "A smarter\n way to learn JavaScript"
 alert("I am trying to learn from the Book "+book);
 
 // 8. Write a script to display this in browser through JS
-document.write("Yes i can write content through JS");
+document.write("Yah! i can write content through JS");
 
 // 9. Store following string in a variable and show in alert and 
 // browser through JS
