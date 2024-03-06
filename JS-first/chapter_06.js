@@ -60,25 +60,3 @@ document.write("<br>")
 var userMy = +prompt("Write some number here!","5");
 document.write(userMy*5);
 
-
-//  6. Take
-//  a) Take three subjects name from user and store them in 3 
-//  different variables.
-//  b) Total marks for each subject is 100, store it in another 
-//  variable.
-//  c) Take obtained marks for first subject from user and 
-//  stored it in different variable.
-//  ALERTS | JAVASCRIPT
-//  Page 3 of 3
-//  d) Take obtained marks for remaining 2 subjects from user 
-//  and store them in variables.
-//  e) Now calculate total marks and percentage and show the 
-//  result in browser like this.(Hint: user table)
-
-var firstSubject = prompt("write first subject name");
-var secondSubject = prompt("write second subject name");
-var thirdSubject= prompt("write third subject name");
-var totalMarks = 100;
-var Obtained_Marks = +prompt("Enter-Obtained-Marks")
-document.write("<h3>"+"Subject"+"Total Marks"+"Obtained Marks"+"Percentage");
-document.write(firstSubject,totalMarks+Obtained_Marks,totalMarks/Obtained_Marks*100+"5");
