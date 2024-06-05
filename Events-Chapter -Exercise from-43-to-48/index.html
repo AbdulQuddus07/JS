@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events-Exercise</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="a">
+      <p>Click on Google for aler</p>
+      <a id="google" href="https://www.google.com">Google</a>
+    </div>
+    <div class="mo">
+      <img src="https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600">
+      <img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=600">
+      <img src="https://images.pexels.com/photos/20447837/pexels-photo-20447837/free-photo-of-back-of-apple-iphone-15-pro-max.jpeg?auto=compress&cs=tinysrgb&w=600">
+      <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+    </div>
+    <table>
+      <tbody id="table">
+        <tr>
+          <td class="removeItem">
+            0 Jhon 10 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            1 Doe 9 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            2 Mark 8 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            3 James 7 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            4 Harry 6 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            5 Clark 5 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            6 Michel 4<button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            7 Gayle 3 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            8 Boss 2 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            9 Messi 1 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td class="removeItem">
+            10 Chema 0 <button class="d-block btn-style">delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <img
+      width="300px"
+      height="300px"
+      src="https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      id="before"
+      onmouseover="sizeImage()"
+      onmouseout="resizeImageAgain()"
+    />
+
+    <div class="btn-container">
+      <button class="inc">Increment</button>
+      <h3 id="h3">0</h3>
+      <button class="dec" onclick="decrement()">Decrement</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
